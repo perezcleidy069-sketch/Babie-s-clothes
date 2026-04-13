@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap');
+
+:root{
+    --color-menu:#2174d4;
+    --background: #97bdf5;
+    --subbackground:#cadffb; 
+    --title-color: black;
+    --letter-color: white;
+    --title: "Instrument Serif", serif;
+    --letter: "Libre Baskerville", serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.fondo{
+    background:var(--subbackground);
+
+}
+/*Menu despegable*/
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.barra__menu{
+    display: none;
+}
+
+.bar__menu{
+    font-size: 30px;
+    user-select: none;
+    cursor: pointer;
+}
+.opciones{
+    display:none;
+    position: absolute;
+    background-color: var(--color-menu);
+    list-style: none;
+    padding: 30px;
+    border: 12px solid var(--color-menu);
+}
+.opciones li a {
+    text-decoration: none;
+    display: block;
+    padding: 8px 15px;
+    
+}
+
+.menu__link{
+    color: var(--letter-color);
+    font-family: var(--letter);
+}
+
+.opciones li a:hover{
+    background-color: #def7ff;
+    color: black;
+}
+.barra__menu:checked ~ .opciones {
+    display:block;
+}
+
+.imagen__barra{
+    height: 20px;
+    width: 20px;
+}
+
+/*Submenu despegable*/
+
+.submenu__link{
+    text-decoration: none;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#submenu__lin:hover{
+    color: var(--color-menu);
+    background-color: white;
+}
+.subopciones__menu{
+    list-style-type:none;
+    padding-left: 30px;
+}
+
+/*Logo*/
+.menuimagen__logo img{
+    width: 10px;
+    height: 10px;
+    display: flex;
+    margin-left: 50px;
+    
+}
+@media (max-width:700px){
+    .menuimagen__logo{
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+header .header__logo{
+    justify-content: center;
+    align-items: center;
+}
+

@@ -4,32 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sr. BabyShop</title>
+    <link rel="stylesheet" href="./CSS/catalogo.css">
 </head>
-<body>
-    <header>
-        <div class="menu">
-            <label for="menu" id="bar__menu"><img src="./IMG/barra_menu.png" alt="barra de menú"></label>
-            <input type="checkbox" class="barra__menu">
-            <ul>
-                <li><a href="./catalogo.html">Catálogo</a></li>
-                <ul>
-                    <li><a href="./todos_producto.html">Todos los productos</a></li>
-                    <li><a href="./abrigos.html">Abrigos</a></li>
-                    <li><a href="./trajes.html">Trajes</a></li>
-                    <li><a href="./zapatos.html">Zapatos</a></li>
+<body id="container" class="fondo">
+    <header class="header">
+        <div class="menu__header">
+            <nav class="menu__link">
+                <label for="barra__menu" class="bar__menu"><img class="imagen__barra" src="./IMG/barra_menu.png" alt="barra de menú"></label>
+                <input type="checkbox" id="barra__menu" class="barra__menu">
+                <ul class="opciones">
+                    <details class="menu__deplegue">
+                    <summary class="submenu__despeque">Catálogo</summary>
+                            <ul class="subopciones__menu">
+                                <li class="menu__item"><a class="submenu__link" id="submenu__lin" href="./catalogo.html">Todos los productos</a></li>
+                                <li class="menu__item"><a class="submenu__link" id="submenu__lin" href="./abrigos.html">Abrigos</a></li>
+                                <li class="menu__item"><a class="submenu__link" id="submenu__lin" href="./trajes.html">Trajes</a></li>
+                                <li class="menu__item"><a class="submenu__link" id="submenu__lin" href="./zapatos.html">Zapatos</a></li>
+                            </ul>
+                    </details></li>
+        logo            <li class="menu__item"><a class="menu__link" href="./checkout.html">Checkout</a></li>
+                    <li class="menu__item"><a class="menu__link" href="./perfil.html">Perfil</a></li>
+                    <li class="menu__item"><a class="menu__link" href="./hitorial.html">Historial</a></li><hr>
+                    <li class="menu__item"><a class="menu__link" href="./carrito.html">Carrito</a></li>
+                    <li class="menu__item"><a class="menu__link" href="./pantall_vacio.html">Pantalla Vacía</a></li>
                 </ul>
-                <li><a href="./carrito.html">Carrito</a></li>
-                <li><a href="./checkout.html">Checkout</a></li>
-                <li><a href="./perfil.html">Perfil</a></li>
-                <li><a href="./hitorial.html">Historial</a></li>
-                <li><a href="./pantall_vacio.html">Pantalla Vacía</a></li>
-            </ul>
-
-            <img src="./IMG/logo.png" alt="Logo de un traje">
-            <p>Sr. BabyShop</p>
-
-            <a href="./carrito.html"><img src="./IMG/carrito_compra.png" alt=""></a>
+            </nav>
         </div>
+        <div class="header__logo">
+            <img class="menuimagen__logo" src="./IMG/logo.png" alt="Logo de un traje">
+            <p class="menubrand__name">Sr. BabyShop</p>
+
+            <a class="menu__nameLogo" href="./carrito.html"><img src="./IMG/carrito_compra.png" alt=""></a>
+        </div>
+
+           
     </header>
 </body>
 </html>
