@@ -65,3 +65,77 @@
     padding: 1px;
     border: 1px solid var(--color-menu);
 }
+/*Catàlogo*/
+.product__seccion{
+    font-family: var(--title);
+    color: var(--color-menu);
+    font-size: 28px;
+    text-align: center;
+    padding-top: 15px;
+}
+/*Menú lateral */
+.lateral__catag{
+    position: relative;
+    display: inline-block;
+}
+.seleccion__boton{
+    background: white;
+    color: var(--color-menu);
+    cursor: pointer;
+    padding: 2px;
+    border: 1px solid blue;
+    text-align: left;
+}
+.lista__seleccion{
+    display: none;
+    position: absolute;
+    background-color: white;
+    list-style: none;
+    box-shadow: 0px 8px 16px gray;
+    z-index: 1;
+    min-width: 100px;
+}
+
+.lista__selecccion li a{
+    color: black;
+    padding: 8px 10px;
+    text-decoration: none;
+    display: block;
+}
+.lista__selecccion li a:hover{
+    background-color: #2174d4;
+}
+
+.lateral__catag:hover .lista__selecccion{
+    display: block;
+}
+
+
+/*Productos del catágolo*/
+
+.seccion__productos{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    align-items: center;
+    padding: 10px 15px;
+
+}
+
+
+.producto{
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    border: 1px solid var(--color-menu);
+    border-radius: 12px;
+    padding: 10px 14px;
+    gap: 13px;
+}
+.producto img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover; 
+    margin-bottom: 10px;
+}
