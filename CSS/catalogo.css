@@ -100,9 +100,8 @@
 }
 
 #menuimagen__logo {
-    width: 1em;
+    width: auto;
     height: 1em;
-    flex: 100px;
     align-content: center;
 }
 .header__logo{
@@ -189,14 +188,38 @@
     display: inline-block;
     padding: 10px;
     width: 140px;
-    margin: 12px;
+    margin: 4px;
     
 }
 /*Sección de imagenes*/
 .seccion__imagen{
-    width: 100px;
-    height: 100px;
-    padding-left: 20px;
-    
+    width: 80px;
+    height: 80px;   
+}
+
+/*Secciòn Novedad*/
+
+.title__novedad{
+    font-family: var(--title);
+    font-size: 23px;
+    text-align: center;
+    padding: 15px;
+}
+.seccion{
+    text-align: center;
+    width: 100%;
+}
+
+.seccion img {
+    display:block;
+    margin: 0px auto 5px auto;
+}
+
+/*Sección de nombre y precio*/
+.seccion__name {
+    font-family: var(--title);
+}
+.seccion__price{
+    font-family: var(--title);
 }
 
