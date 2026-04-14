@@ -1,0 +1,35 @@
+/* CSS */
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .toggle {
+    display: none; /* Ocultar el checkbox real */
+  }
+  
+  .label-lupa {
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 2;
+  }
+  
+  .input-buscador {
+    width: 0;
+    opacity: 0;
+    transition: all 0.5s ease; /* Transición suave [7] */
+    position: absolute;
+    left: 30px;
+    border: none;
+    outline: none;
+    padding: 0;
+  }
+  
+  /* Cuando el checkbox esté marcado (click), mostrar buscador */
+  .toggle:checked + .label-lupa + .input-buscador {
+    width: 200px; /* Ancho final */
+    opacity: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
