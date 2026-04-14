@@ -43,23 +43,52 @@
     <main class="principal">
         <div class="main__buscardor">
             <form action="./search" method="get" class="buscar">
-                <input type="search" name="q" placeholder="🔍  Buscar productos, marcas .....">
+                <input class="input__search" type="search" name="q" placeholder="🔍  Buscar productos, marcas .....">
             </form>
         
         </div>
-        <div>
-            <h3>Categorías Populares</h3>
-            <img src="./IMG/ZapLogo.png" alt="Icono de un par de zapatos">
-            <p>Zapatos</p>
+        <div class="tittle">
+            <h3 class="main__tittle">Categorías Populares</h3>
+        </div>
+        <div class="contenido__seccion">
+            <div class="main__seccion">
+                <a href="./zapatos.html"><img class="seccion__fist" src="./IMG/ZapLogo.png" alt="Icono de un par de zapatos"></a>
+                <p class="text__fist">Zapatos</p>
+            </div>
+            <div class="main__seccion">
+                <a href="./abrigos.html"><img class="seccion__fist" src="./IMG/AbrLogo.png" alt="Icono de un abrigo"></a>
+                <p class="text__fist">Abrigos</p>
+            </div>
+            <div class="main__seccion">
+                <a href="./trajes.html"><img class="seccion__fist" src="./IMG/LoTraje.png" alt="Logo de un traje"></a>
+                <p class="text__fist">Trajes</p>
+            </div>
         </div>
         <div>
-            <img src="./IMG/AbrLogo.png" alt="Icono de un abrigo">
-            <p>Abrigos</p>
+            <h3>Novedades del mes</h3>
         </div>
-        <div>
-            <img src="./IMG/LoTraje.png" alt="Logo de un traje">
-            <p>Trajes</p>
-        </div>
+        <section class="seccion">
+            <div class="seccion__novedad">
+                <a href="./abrigos.html#abrigoNaraja"><img class="seccion__imagen" src="./IMG/abrigos1.png" alt="Abrigo Anarajando"></a>
+                <p class="seccion__name">Abrigo Naranja</p>
+                <p class="seccion__price">Precio: $10.00</p>
+            </div>
+            <div class="seccion__novedad">
+                <a href="./trajes.html#enterizo"><img class="seccion__imagen" src="./IMG/traje.png" alt="Enterizo blanco"></a>
+                <p class="seccion__name">Enterizo</p>
+                <p class="seccion__price">Precio: $15.00</p>
+            </div>
+            <div class="seccion__novedad">
+                <a href="./zapatos.html"><img class="seccion__imagen" src="./IMG/shoes.png" alt="Zapatos naranjas"></a>
+                <p class="seccion__name">Zapatos anarajados</p>
+                <p class="seccion__price">Precio: $12.00</p>
+                </div>
+            <div class="seccion__novedad">
+                <a href="./trajes.html"><img class="seccion__imagen" src="./IMG/traje1.png" alt="Traje de rayas"></a>
+                <p class="seccion__name">Traje completo de rayas</p>
+                <p class="seccion__price">Precio: $25.00</p>
+             </div>
+        </section>
     </main>
 </body>
 </html>
