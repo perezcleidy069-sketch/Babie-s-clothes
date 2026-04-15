@@ -31,3 +31,47 @@
     text-align: center;
     padding:12px;
 }
+.header__tittle{
+    font-family: var(--title);
+    color: var(--color-menu);
+    font-size: 40px;
+    padding: 10px;
+    text-align: center;
+}
+.document input{
+    display: block;
+    margin: 10px;
+}
+.document label{
+    margin: 10px;
+    font-family: var(--title);
+    font-size: 20px;
+}
+.metodo__tittle{
+    color: #2174d4;
+    font-family:var(--title);
+    font-size: 25px;
+    text-align: center;
+}
+.icono{
+    width: 45px;
+    height: 45px;
+}
+
+.seccion__div{
+    background-color: rgba(221, 202, 170, 0.89);
+    border: 1px solid seashell;
+    border-radius: 15px;
+    width: 115px;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.letter{
+    text-align: center;
+}
+.resumen{
+    color: ;
+}
