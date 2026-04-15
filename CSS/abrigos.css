@@ -62,7 +62,7 @@
 
 .name__producto{
   font-family: var(--title0);
-  font-size: 25px;
+  font-size: 30px;
   text-align: center;
   color: #064083;
 }
@@ -74,7 +74,7 @@
 }
 .price__producto{
   font-family: var(--title);
-  font-size: 20px;
+  font-size: 25px;
   color: black;
   text-align: center;
 }
@@ -82,6 +82,7 @@
 .descriptio__producto{
   text-align: justify;
   padding: 12px;
+  font-size: 25px;
 }
 
 .choose{
@@ -93,22 +94,122 @@
 }
 
 .choose__size{
-  padding: 20px;
+  padding: 10px;
   text-align: center;
+  font-size: 30px;
 }
 .add__car{
   text-decoration: none;
   color: black;
   padding: 10px;
   font-weight: bold;
+  font-size: 30px;
 }
 .agregar{
   background-color: #2174d4;
   border: 1px solid white;
   margin: 0 auto;
-  width: 150px;
-  height: 50px;
+  width: 300px;
+  height: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (min-width:1280px){
+  .fondo{
+    background-color: rgb(82, 181, 247);
+  }
+  .header__subtitle{
+    color: white;
+    font-size: 50px;
+  }
+  .imagen__car{
+    width: 80px;
+    height: 80px;
+  }
+  .imagen__back{
+    width: 60px;
+    height: 60px;
+  }
+  .image__producto{
+    width: 600px;
+    height: 500px;
+    float: left;
+    padding-left: 60px;
+  }
+  .name__producto{
+    padding-top: 30px;
+    font-size: 60px;
+  }
+  .price__producto{
+    font-size: 40px;
+  }
+  .descriptio__producto{
+    font-size: 30px;
+    padding: 30px;
+  }
+  .choose{
+    font-size: 30px;
+    color: #04172c;
+    width: 40px;
+    height: 30px;
+  }
+  .add__car{
+    color: white;
+    font-size: 35px;
+  }
+  .agregar{
+    width: 600px;
+    padding: 30px;
+  }
+}
+
+@media (min-width:800px) and (max-width:1280px){
+  .fondo{
+    background-color: rgba(5, 180, 13, 0.884);
+  }
+  .header__subtitle{
+    color: white;
+    font-size: 50px;
+  }
+  .imagen__car{
+    width: 80px;
+    height: 80px;
+  }
+  .imagen__back{
+    width: 50px;
+    height: 50px;
+  }
+  .image__producto{
+    width: 500px;
+    height: 400px;
+  }
+  .name__producto{
+    padding-top: 30px;
+    font-size: 60px;
+    color: rgb(17, 66, 17);
+  }
+  .price__producto{
+    font-size: 40px;
+    color: rgb(17, 66, 17);
+  }
+  .descriptio__producto{
+    font-size: 40px;
+    padding: 30px;
+  }
+  .choose{
+    font-size: 30px;
+    color: #04172c;
+    width: 40px;
+    height: 30px;
+  }
+  .add__car{
+    color: white;
+    font-size: 35px;
+  }
+  .agregar{
+    width: 600px;
+    padding: 30px;
+  }
 }
