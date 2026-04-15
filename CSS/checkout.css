@@ -17,7 +17,7 @@
 }
 
 .fondo{
-    background:var(--background)
+    background:var(--background);
 }
 
 
@@ -57,21 +57,32 @@
     width: 45px;
     height: 45px;
 }
-
 .seccion__div{
     background-color: rgba(221, 202, 170, 0.89);
     border: 1px solid seashell;
     border-radius: 15px;
     width: 115px;
-    margin: 15px;
+    margin: 5px;
     display: flex;
+    justify-items: center;
     align-items: center;
     flex-direction: column;
+    box-shadow: #2174d4 10px 10px 5px 0px;
 }
 
-.letter{
-    text-align: center;
+.headers{
+    display: inline-block;
+    align-items: center;
+    justify-items: center;
 }
-.resumen{
-    color: ;
+
+.resumne{
+    color: black;
+    font-family: var(--title);
+    font-size: 30px;
+}
+
+.img{
+    height: 40px;
+    width: 40px;
 }
