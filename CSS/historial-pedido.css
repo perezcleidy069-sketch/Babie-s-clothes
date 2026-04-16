@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap');
+
+:root{
+    --color-menu:#2174d4;
+    --background: #97bdf5;
+    --subbackground:#cadffb; 
+    --title-color: black;
+    --letter-color: white;
+    --title: "Instrument Serif", serif;
+    --letter: "Libre Baskerville", serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.fondo{
+    background:#CCFFCC;
+
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    width: 100%;
+    
+}
+.main__seccion{
+    display: flex;
+    justify-content: center;
+}
+
+.icono__regresar{
+    width: 10px;
+    height: 20px;
+    
+
+}
+.header__word{
+    font-family: var(--title);
+    font-size:30px ;
+}
+
+.word{
+    flex-grow: 1;
+    text-align: center;
+    
+}
+
+.main__div{
+    display: grid;
+    grid-template-columns: 1fr auto ;
+    margin: 12px;
+
+}
+
+.seccion{
+    border: 1px solid green;
+    background-color: green;
+    width: 250px;
+    margin: 12px;
+}
+
+.main__div p{
+    color: white;
+}
+
+.entrega{
+    border: 1px solid #38d467;
+    background-color: rgb(78, 196, 78) ;
+    width: 100px;
+}
+.detalles{
+    border: 1px solid white;
+    
+}
+.encamino{
+    border: 1px solid #38d467;
+    background-color: rgb(230, 172, 47) ;
+    width: 100px;
+}
+.cancelado{
+    border: 1px solid #38d467;
+    background-color: rgb(212, 31, 31) ;
+    width: 100px;
+}
+.seccion__pedido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.img{
+    width: 40px;
+    height: 40px;
+}
+
+
+.seccion__submenu{
+    border: 1px solid green;
+    background-color: #9ad897b6;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+    padding: 5px 0px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+   
+}
+
+.link{
+    padding-top: 50px;
+    text-decoration: none;
+    margin: 15px;  
+}
+
+@media(min-width:800px) and (max-width:1280px){
+    .fondo{
+        background-color: var(--subbackground);
+    }
+     .seccion__submenu{
+        display: flex;
+        flex-direction: row;
+    }
+    .seccion__submenu{
+        border: 1px solid var(--color-menu);
+        background-color: #97bdf5;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        text-align: center;
+        padding: 5px 0px;
+        position: relative;
+        position: fixed;
+        width: 100%;
+    }
+    .seccion{
+        background-color: #2174d4;
+    }
+}
