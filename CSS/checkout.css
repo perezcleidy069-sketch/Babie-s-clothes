@@ -86,3 +86,30 @@
     height: 40px;
     width: 40px;
 }
+
+.resumen{
+    display: grid;
+    grid-template-columns: 1fr auto 1fr auto ;
+    margin: 15px;
+
+
+}
+.resumen__div{
+    border: 1px solid blue;
+    background-color: white;
+    border-radius: 5px;
+    justify-items: center;
+}
+.seccion__resumen{
+    display: inline-flex;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+}
+.pagar{
+    border: 1px solid var(--color-menu);
+    background-color: #2174d4;
+    border-radius: 12px;
+    width: 100px;
+    height: 4%;
+}
