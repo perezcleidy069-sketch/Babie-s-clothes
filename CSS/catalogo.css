@@ -139,3 +139,18 @@
     object-fit: cover; 
     margin-bottom: 10px;
 }
+.encabezado__div{
+    display: grid;
+    grid-template-columns: 1fr auto 1fr auto 1fr;
+}
+#menimagen__logo{
+    width: 49px;
+}
+.imagen__carrito{
+    width: 40px;
+    justify-items: flex-end;
+
+}
+.encabezado{
+    display: inline;
+}
