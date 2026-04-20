@@ -1,0 +1,92 @@
+:root{
+    --color-menu:#2174d4;
+    --background: #97bdf5;
+    --subbackground:#cadffb; 
+    --title-color: black;
+    --letter-color: white;
+    --title: "Instrument Serif", serif;
+    --letter: "Libre Baskerville", serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.fondo{
+    background:var(--background);
+
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 15px;
+
+}
+.header__div{
+    display:flex ; 
+      
+}
+
+.header__tittle{
+    color:white;
+    font-family: var(--title-color);
+    font-size: 25px;
+}
+
+.main{
+    display: block;
+    justify-items: center;
+    align-content: center;
+    margin: 25px;
+}
+
+.input__search{
+    width: 200px;
+    height: 100%;
+    
+}
+.seccion{
+    display: block;
+    
+}
+.pregunta{
+    margin: 15px;
+}
+.footer{
+    display: block;
+    justify-items: center;
+    align-content: center;
+    background-color: aliceblue;
+    height: 130px;
+    margin-top: 180px;
+}
+
+.contacto{
+    border: 1px solid blue;
+    background-color: #cadffb;
+    border-radius: 5px;
+    width: 180px;
+    height: 50px;
+    box-shadow: 15px 15px 50px 0px rgb(111, 111, 221);
+}
+.footerc{
+    text-align: center;
+    padding-top: 15px;
+}
+.footerp{
+    color: black;
+    font-family: var(--title);
+    font-size: 20px;
+    margin: 10px;
+}
+details::after{
+    content: "";
+}
+details::after{
+    content: 🔨;
+}
+
+
